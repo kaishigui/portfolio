@@ -17,7 +17,7 @@ function Header() {
   return (
     <nav className=''>
       <header className={`flex justify-between sticky top-0 bg-gray-900 text-white h-20 
-      ${dropdown && "h-fit"} 
+      ${!dropdown && "h-fit pt-5 "} 
       max-w-7xl mx-auto`}>
     
           <div className='flex items-center px-10'>
