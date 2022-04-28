@@ -50,29 +50,36 @@ function Homepage() {
       
       <section className='my-5 mx-10 '>
         <div className='mx-auto mb-10'>
-         <h2 className='text-center text-2xl'>Tutorial Island</h2>
+         <h2 className='text-center text-5xl'>Level 
+          <span className='text-purple-500'> 0</span>
+         </h2>
         </div>
         <article>
-          <p> Welcome to the first level of my story. 
-            I am a Front-End Developer growing my skills and knowledge to be a Full-Stack Engineer.
+          <p className='text-lg'> Welcome to the tutorial of my story. 
+            I am a Front-End Developer that is growing my skills and knowledge to be a Full-Stack Engineer.
           </p>
 
           <br />
-          <p>
-            I am fluent in Python and JavaScript
+          <p className='text-lg'>
+            I am fluent in 
+            <span className='text-purple-500 italic'> Python </span> && 
+            <span className='text-purple-500 italic'> JavaScript </span>
           </p>
           <br />
           
-          <p>
-          Whenever possible, I apply my passion for developing products with Node.js, 
-          Modern Javascript Libraries and Frameworks like React.js and Next.js.
+          <p className='text-lg'>
+          Whenever possible, I apply my passion for developing products with 
+          <span className='text-purple-500 italic'> Node.js, </span>
+          <span className='text-purple-500 italic'> Javascript Libraries and Frameworks  </span>like 
+          <span className='text-purple-500 italic'> React.js  </span> && 
+          <span className='text-purple-500 italic'> Next.js. </span>
           </p>
         </article>
       </section>
 
       <section className='flex flex-col items-center my-5 my-10'>
         <h2 className='text-2xl mb-1'>Interested? </h2>
-        <h4>Check out my pages below</h4>
+        <h4 className='text-gray-400'>Check out my pages below</h4>
         <div className='my-6'>
           <button className='border rounded-md mr-5 py-1 px-2 text-purple-500 
             hover:shadow-[0_0_5px_] hover:shadow-purple-500 hover:transition ease-in-out delay-120'>

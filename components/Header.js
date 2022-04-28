@@ -15,9 +15,10 @@ function Header() {
   }
 
   return (
-    <main>
-      <header className='flex justify-between sticky top-0 bg-gray-900 text-white h-20 
-      max-w-7xl mx-auto'>
+    <nav className=''>
+      <header className={`flex justify-between sticky top-0 bg-gray-900 text-white h-20 
+      ${dropdown && "h-fit"} 
+      max-w-7xl mx-auto`}>
     
           <div className='flex items-center px-10'>
             <h2 className='text-2xl'>Z9</h2>
@@ -45,7 +46,7 @@ function Header() {
       </header>
       
       <Dropdown drop={dropdown}/>
-    </main>
+    </nav>
   )
 }
 
