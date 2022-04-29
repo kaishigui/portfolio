@@ -12,6 +12,9 @@ module.exports = {
         "purpler": "#292656",
         'lightpurp': '#2f2c68',
       },
+      transitionProperty: {
+        height: 'height'
+      },
     },
   
   },

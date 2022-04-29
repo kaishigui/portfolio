@@ -1,14 +1,18 @@
 export const menuItems = [
     {
-        title: "Home"
+        title: "Home",
+        id: "/",
     },
     {
-        title: "Projects"
+        title: "Projects",
+        id: "/projects",
     },
     {
-        title: "Skills"
+        title: "Skills",
+        id: '/skills',
     },
     {
-        title: "Resume"
+        title: "Resume",
+        id:"/resume",
     }
 ];
