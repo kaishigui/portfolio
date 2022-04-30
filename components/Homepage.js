@@ -18,7 +18,7 @@ function Homepage() {
         </div>
         <div className='flex items-center my-2'>
           <a href="https://www.linkedin.com/in/kashigui/">
-            <button type="button" className='items-center p-2 border rounded-full mr-5
+            <button type="button" className='items-center p-3 border rounded-full mr-7 mt-5
             hover:shadow-[0_0_5px_] hover:shadow-purple-500 hover:transition ease-in-out delay-120'>
               <svg 
                 className='fill-current w-4 h-4'
@@ -29,7 +29,7 @@ function Homepage() {
             </button>
           </a>
           <a href="https://github.com/kaishigui">
-            <button type="button" className='items-center p-2 border rounded-full mr-5
+            <button type="button" className='items-center p-3 border rounded-full mr-7 mt-5
             hover:shadow-[0_0_5px_] hover:shadow-purple-500 hover:transition ease-in-out delay-120'>
             <svg 
               className='fill-current w-4 h-4'
@@ -40,7 +40,7 @@ function Homepage() {
             </button>
           </a>
           <a href="https://www.linkedin.com/in/kashigui/">
-            <button type="button" className='items-center p-2 border rounded-full
+            <button type="button" className='items-center p-3 border rounded-full mt-5 mr-3
             hover:shadow-[0_0_5px_] hover:shadow-purple-500 hover:transition ease-in-out delay-120'>
             <svg 
               className='fill-current w-4 h-4'
