@@ -6,7 +6,7 @@ function Homepage() {
   return (
     <main className='flex flex-col items-center justify-center  
     bg-purpler h-full text-white text-lg '>
-      <section className='flex flex-col h-full items-center text-center my-5 mt-10'>
+      <section className='flex flex-col h-full items-center text-center my-5 mt-6'>
         <div className=' flex flex-col justify-center h-60 mb-2'>
           <h2 className='text-4xl'>I'm
             <span className='text-purple-500'> Mykell McSwain</span>

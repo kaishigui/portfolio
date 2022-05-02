@@ -4,11 +4,11 @@ import { menuItems } from './menuItems'
 function Footer() {
   return (
     <footer className='flex flex-col items-center bg-black text-white py-2'>
-        <div className=' px-10 py-2'>
+        <div className='px-10 py-2'>
             <h2>Designed and Developed by Mykell McSwain</h2>
         </div>
         <div className='py-2 '>
-            <h2>Copyrighted @2020</h2>
+            <h2>Copyrighted @{new Date().getFullYear()}</h2>
         </div>
         <div className='flex items-center space-x-5 px-20 sm:flex-col py-2 '>
             <button type="button" className='items-center p-2'>
