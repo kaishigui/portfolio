@@ -7,7 +7,7 @@ import Dropdown from './Dropdown';
 import Link from 'next/link';
 
 
-function Header() {
+function Header({scroll}) {
 
   const [dropdown, setDropdown] = useState(false);
 
@@ -15,29 +15,55 @@ function Header() {
     (!dropdown) ? setDropdown(true) : setDropdown(false)
   }
 
+
   return (
-    <nav className=''>
+    <nav className='bg-gray-900'>
       <header className={`flex justify-between sticky top-0 bg-gray-900 text-white h-20 
       ${dropdown && "h-fit pt-5 "} 
       max-w-7xl mx-auto`}>
     
-          <button className='flex items-center px-10'>
+          <button className='flex items-center  ml-10 px-5'>
             <Link href="/">
               <h2 className='text-2xl'>Z9</h2>
             </Link>
           </button>
 
-          <div className='hidden md:inline-flex sm:inline-flex items-center 
-          space-x-10 px-20'>
-            <h3 className='text-lg'>Home</h3>
-            <h3 className='text-lg'>About</h3>
-            <h3 className='text-lg'>Projects</h3>
-            <h3 className='text-lg'>Resume</h3>
-            <h3 className='text-lg'>Contact</h3>
+          <div className='hidden  md:inline-flex  items-center 
+          space-x-12 lg:space-x-16 px-10 mr-10'>
+            
+            <h3 className='lg:text-xl text-lg cursor-pointer
+            hover:text-purple-500 hover:ease-in-out duration-300'>
+              <Link href="/">
+                <a>Home</a>
+              </Link>
+            </h3>
+            <h3 className='lg:text-xl text-lg cursor-pointer
+            hover:text-purple-500 hover:ease-in-out duration-300'>
+              <Link href="/projects">
+                <a>Projects</a>
+              </Link>
+            </h3>
+            <h3 className='lg:text-xl text-lg cursor-pointer
+            hover:text-purple-500 hover:ease-in-out duration-300'>
+              <Link href="/skills">
+                <a>Skills</a>
+              </Link>
+            </h3>
+            <h3 className='lg:text-xl text-lg cursor-pointer
+            hover:text-purple-500 hover:ease-in-out duration-300'>
+              <Link href="/">
+                <a>Resume</a>
+              </Link>
+            </h3>
+            <h3
+              onClick={scroll}
+             className='lg:text-xl text-lg cursor-pointer
+            hover:text-purple-500 hover:ease-in-out duration-300 md:mr-5'>Contact
+            </h3>
           </div>
 
           <button 
-          className="md:hidden lg:hidden sm:hidden flex items-center px-10 
+          className="md:hidden lg:hidden  flex items-center px-10 
           outline-none"
           onClick={handleDropdown}
           >

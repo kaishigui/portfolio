@@ -15,7 +15,8 @@ function projects() {
         </div>
 
         <div className='flex grid grid-col-1 auto-rows-auto mx-10 mb-10 gap-10'>
-          <div className='flex flex-col items-center border border-transparent rounded-sm shadow-[0_0_10px_] shadow-purple-800 p-5
+          <div className='flex flex-col items-center border border-transparent 
+          rounded-sm shadow-[0_0_10px_] shadow-purple-800 p-5
           transition duration-300 hover:border-purple-800 ease-in-out'>
             <img className='bg-white p-20' src="" alt="" />
             <h4 className='mt-5'>Spotify</h4>
@@ -26,7 +27,8 @@ function projects() {
             <button className='flex bg-galaxy opacity-90 border-purple-500 rounded-md 
         px-10 py-2  mt-3 transition duration-150 hover:bg-purple-900 hover:ease-in'>View Project</button>
           </div>
-          <div className='flex flex-col items-center border border-transparent rounded-sm shadow-[0_0_10px_] shadow-purple-800 p-5
+          <div className='flex flex-col items-center border border-transparent 
+          rounded-sm shadow-[0_0_10px_] shadow-purple-800 p-5
           transition duration-300 hover:border-purple-800 ease-in-out'>
             <img className='bg-white p-20' src="" alt="" />
             <h4 className='mt-5'>Netflix</h4>
@@ -36,7 +38,8 @@ function projects() {
             <button className='flex bg-galaxy opacity-90 border-purple-500 rounded-md 
         px-10 py-2 transition duration-150 hover:bg-purple-900 hover:ease-in'>View Project</button>
           </div>
-          <div className='flex flex-col items-center border border-transparent rounded-sm shadow-[0_0_10px_] shadow-purple-800 p-5
+          <div className='flex flex-col items-center border border-transparent 
+          rounded-sm shadow-[0_0_10px_] shadow-purple-800 p-5
           transition duration-300 hover:border-purple-800 ease-in-out'>
             <img className='bg-white p-20' src="" alt="" />
             <h4 className='mt-5'>Lyngos</h4>
@@ -46,7 +49,8 @@ function projects() {
             <button className='flex bg-galaxy opacity-90 border-purple-500 rounded-md 
         px-10 py-2 transition duration-150 hover:bg-purple-900 hover:ease-in'>View Project</button>
           </div>
-          <div className='flex flex-col items-center border border-transparent rounded-sm shadow-[0_0_10px_] shadow-purple-800 p-5
+          <div className='flex flex-col items-center border border-transparent 
+          rounded-sm shadow-[0_0_10px_] shadow-purple-800 p-5
           transition duration-300 hover:border-purple-800 ease-in-out'>
             <img className='bg-white p-20' src="" alt="" />
             <h4 className='mt-5'>Hangman</h4>

@@ -4,19 +4,22 @@ import { menuItems} from './menuItems'
 
 function Homepage() {
   return (
-    <main className='flex flex-col items-center justify-center  
-    bg-purpler h-full text-white text-lg '>
-      <section className='flex flex-col h-full items-center text-center my-5 mt-6'>
-        <div className=' flex flex-col justify-center h-60 mb-2'>
-          <h2 className='text-4xl'>I'm
+    <main className='flex flex-col self-center items-center justify-center  
+    bg-purpler h-full text-white text-lg max-w-8xl'>
+      <section className='flex flex-col h-full items-center text-center my-5 mt-6
+        md:flex-row md:justify-between w-full px-10'>
+        <div className=' flex flex-col justify-center h-60 mb-2 md:mr-10'>
+          <h2 className='text-4xl lg:text-5xl md:text-5xl'>I'm
             <span className='text-purple-500'> Mykell McSwain</span>
           </h2>
-          <h4 className='mt-2 text-gray-400'>Front-End Developer</h4>
+          <h4 className='mt-2 text-gray-400 lg:text-3xl md:text-3xl'>Front-End Developer</h4>
         </div>
-        <div className='mx-10'>
-          <img className="object-contain" src="/Images/Web_designer_10_generated.jpg" alt="Image" />
+        <div className='lg:max-h-4xl lg:mx-10'>
+          <img className="object-contain h-96" src="/Images/Web_designer_10_generated.jpg" alt="Image" />
         </div>
-        <div className='flex items-center my-2'>
+        
+      </section>
+      <div className='md:hidden lg:hidden flex self-col items-center my-2 mb-10'>
           <a href="https://www.linkedin.com/in/kashigui/">
             <button type="button" className='items-center p-3 border rounded-full mr-7 mt-5
             hover:shadow-[0_0_5px_] hover:shadow-purple-500 hover:transition ease-in-out delay-120'>
@@ -51,8 +54,6 @@ function Homepage() {
             </button>
           </a>
         </div>
-      </section>
-
       <hr className='color-white' />
 
       
@@ -62,20 +63,20 @@ function Homepage() {
           <span className='text-purple-500'> 0</span>
          </h2>
         </div>
-        <article>
-          <p className='text-lg'> Welcome to the tutorial of my story. 
+        <article className=''>
+          <p className='text-lg lg:text-xl'> Welcome to the tutorial of my story. 
             I am a Front-End Developer that is growing my skills and knowledge to be a Full-Stack Engineer.
           </p>
 
           <br />
-          <p className='text-lg'>
+          <p className='text-lg lg:text-xl'>
             I am fluent in 
             <span className='text-purple-500 italic'> Python </span> && 
             <span className='text-purple-500 italic'> JavaScript </span>
           </p>
           <br />
           
-          <p className='text-lg'>
+          <p className='text-lg lg:text-xl'>
           Whenever possible, I apply my passion for developing products with 
           <span className='text-purple-500 italic'> Node.js, </span>
           <span className='text-purple-500 italic'> Javascript Libraries and Frameworks  </span>like 
@@ -86,7 +87,7 @@ function Homepage() {
       </section>
 
       <section className='flex flex-col items-center my-10'>
-        <h2 className='text-2xl mb-1'>Interested? </h2>
+        <h2 className='text-2xl mb-1 lg:text-4xl lg:mb-3'>Interested? </h2>
         <h4 className='text-gray-400'>Check out my pages below</h4>
         <div className='my-6'>
 

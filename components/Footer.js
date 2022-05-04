@@ -3,14 +3,15 @@ import { menuItems } from './menuItems'
 
 function Footer() {
   return (
-    <footer className='flex flex-col items-center bg-black text-white py-2'>
-        <div className='px-10 py-2'>
+    <footer className='bg-black '>
+      <main className='flex flex-col md:justify-evenly items-center bg-black text-white md:h-20 md:flex-row max-w-8xl lg:mx-12 '>
+        <div className='px-10 py-2 mr-5'>
             <h2>Designed and Developed by Mykell McSwain</h2>
         </div>
         <div className='py-2 '>
             <h2>Copyrighted @{new Date().getFullYear()}</h2>
         </div>
-        <div className='flex items-center space-x-5 px-20 sm:flex-col py-2 '>
+        <div className='flex items-center space-x-5 px-20 py-2 '>
             <button type="button" className='items-center p-2'>
               <svg 
                 className='fill-current w-4 h-4'
@@ -36,7 +37,7 @@ function Footer() {
               </svg>
             </button>
         </div>
-        
+        </main>
     </footer>
   )
 }
