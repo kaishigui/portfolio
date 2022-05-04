@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import Contact from './Contact'
 import { menuItems} from './menuItems'
 
 function Homepage() {
@@ -115,6 +116,8 @@ function Homepage() {
       
         </div>
       </section>
+      
+       <Contact />
 
     </main>
   )

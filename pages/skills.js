@@ -15,7 +15,7 @@ function skills() {
            <h2 className='my-16 mx-5 text-4xl'>My Character Profile</h2>
             <div className='flex flex-col justify-center'>
               <h2 className='flex justify-center mb-5 text-3xl'>Languages</h2>
-              <div className='flex grid grid-cols-2 auto-rows-auto gap-4 mx-10 mb-10'>
+              <div className='flex grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 auto-rows-auto gap-4 mx-10 mb-10'>
                 <div className='flex flex-col justify-center items-center border rounded-sm border-purple-500 p-10
                 transition duration-300 hover:border-purple-400 hover:border-2 hover:text-purple-400 ease-in-out'>
                   <IoLogoJavascript size={'4.0rem'} className=""/> 
@@ -51,7 +51,7 @@ function skills() {
 
             <div className='flex flex-col justify-center'>
               <h2 className='flex justify-center mb-5 text-3xl'>Tools/Frameworks</h2>
-              <div className='flex grid grid-cols-2 auto-rows-auto gap-4 mx-10 mb-10'>
+              <div className='flex grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 auto-rows-auto gap-4 mx-10 mb-10'>
                 <div className='flex flex-col justify-center items-center border rounded-sm border-purple-500 p-10
                 transition duration-300 hover:border-purple-400 hover:border-2 hover:text-purple-400 ease-in-out'>
                   <GrReactjs size={'4.0rem'} className=""/> 
@@ -97,7 +97,7 @@ function skills() {
 
             <div className='flex flex-col justify-center'>
               <h2 className='flex justify-center mb-5 text-3xl'>Future Goals</h2>
-              <div className='flex grid grid-cols-2 auto-rows-auto gap-4 mx-10 mb-10'>
+              <div className='flex grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 auto-rows-auto gap-4 mx-10 mb-10'>
                 <div className='flex flex-col justify-center items-center border rounded-sm border-purple-500 p-10
                 transition duration-300 hover:border-purple-400 hover:border-2 hover:text-purple-400 ease-in-out'>
                   <SiJava size={'4.0rem'} className=""/> 
