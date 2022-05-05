@@ -17,8 +17,8 @@ function Header({scroll}) {
 
 
   return (
-    <nav className='bg-gray-900'>
-      <header className={`flex justify-between sticky top-0 bg-gray-900 text-white h-20 
+    <nav className='bg-gray-900 sticky top-0 z-20 '>
+      <header className={`flex justify-between  bg-gray-900 text-white h-20 
       ${dropdown && "h-fit pt-5 "} 
       max-w-7xl mx-auto`}>
     
@@ -73,7 +73,7 @@ function Header({scroll}) {
           }   
           </button>  
       </header>
-      <Dropdown drop={!dropdown}/>
+      <Dropdown style={{zIndex: '3'}} drop={!dropdown}/>
       
     </nav>
   )

@@ -3,7 +3,7 @@ import { menuItems } from './menuItems'
 
 function Footer() {
   return (
-    <footer className='bg-black '>
+    <footer className='bg-gray-900'>
       <main className='flex flex-col md:justify-evenly items-center bg-black text-white md:h-20 md:flex-row max-w-8xl lg:mx-12 '>
         <div className='px-10 py-2 mr-5'>
             <h2>Designed and Developed by Mykell McSwain</h2>

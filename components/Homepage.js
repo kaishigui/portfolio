@@ -6,7 +6,7 @@ import { menuItems} from './menuItems'
 function Homepage() {
   return (
     <main className='flex flex-col self-center items-center justify-center  
-    bg-purpler h-full text-white text-lg max-w-8xl'>
+    bg-purpler h-full text-white text-lg max-w-8xl z-0'>
       <section className='flex flex-col h-full items-center text-center my-5 mt-6
         md:flex-row md:justify-between w-full px-10'>
         <div className=' flex flex-col justify-center h-60 mb-2 md:mr-10'>

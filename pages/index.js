@@ -22,14 +22,13 @@ export default function Home() {
 
   const scrollToBottom = () => {
     window.scrollTo({
-      top: 300,
+      top: 700,
       behavior: 'smooth',
     })
   }
 
   useEffect(() => {
     window.addEventListener('scroll', toggleVisibility)
-
     return () => {
       window.removeEventListener('scroll', toggleVisibility)
     }
@@ -38,7 +37,7 @@ export default function Home() {
 
 
   return (
-    <main className=' flex flex-col mx-auto bg-purpler  '>
+    <main className=' flex flex-col mx-auto bg-purpler z-0 '>
       
        <Header scroll={scrollToBottom}/>
 

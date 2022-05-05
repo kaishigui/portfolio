@@ -7,7 +7,7 @@ import { menuItems} from './menuItems'
 function Dropdown( {drop} ) {
   
   return (
-    <header className={`flex justify-center bg-gray-900 text-white 
+    <header className={`flex justify-center bg-gray-900 text-white relative z-50
     ${ drop && 'hidden'}`}>
       <ul className="mb-5 text-center">
       {menuItems.map((menu, index) => {
