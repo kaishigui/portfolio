@@ -14,34 +14,38 @@ function projects() {
           <h3 className='text-xl'>Here are some of my creations I've worked on recently</h3>
         </div>
 
-        <div className='flex grid grid-col-1 md:grid-cols-2 auto-rows-auto mx-10 mb-10 gap-10'>
+        <div className='grid grid-col-1 md:grid-cols-2 auto-rows-auto mx-10 self-center max-w-5xl mb-10 gap-10'>
           <div className='flex flex-col items-center border border-transparent 
           rounded-sm shadow-[0_0_10px_] shadow-purple-800 p-5
           transition duration-300 hover:border-purple-800 ease-in-out'>
-            <img className='bg-white p-20' src="" alt="" />
+            <img className='object-fill' src="/Images/Spotify.png" alt="" />
             <h4 className='mt-5'>Spotify</h4>
             <p className='my-3'>Built a spotify clone with a functional player. 
               Built in React.js, MaterialUI and firebase. Uses redux and authetication 
               for user profiles and adding songs to playlist. 
               Uses spotify's API to give access to songs</p>
+           <a href="https://github.com/kaishigui/spotify.git">
             <button className='flex bg-galaxy opacity-90 border-purple-500 rounded-md 
         px-10 py-2  mt-3 transition duration-150 hover:bg-purple-900 hover:ease-in'>View Project</button>
+          </a>
           </div>
           <div className='flex flex-col items-center border border-transparent 
           rounded-sm shadow-[0_0_10px_] shadow-purple-800 p-5
           transition duration-300 hover:border-purple-800 ease-in-out'>
-            <img className='bg-white p-20' src="" alt="" />
+            <img className='object-fill' src="/Images/Netflix.jpg" alt="" />
             <h4 className='mt-5'>Netflix</h4>
             <p className='my-3'>Recreating Netflix with a responsive layout with Reactjs and MaterialUI.
               Implemented modern CSS desgins to create responsive movie banners with detailed descriptions.
               Uses a movie API with Axios to create catergories of movies with titles and posters.</p>
+          <a href="https://github.com/kaishigui/netflix-clone.git">
             <button className='flex bg-galaxy opacity-90 border-purple-500 rounded-md
         px-10 py-2 transition duration-150 hover:bg-purple-900 hover:ease-in'>View Project</button>
+          </a>
           </div>
           <div className='flex flex-col items-center border border-transparent 
           rounded-sm shadow-[0_0_10px_] shadow-purple-800 p-5
           transition duration-300 hover:border-purple-800 ease-in-out'>
-            <img className='bg-white p-20' src="" alt="" />
+            <img className='object-fill' src="/Images/Nightgame_generated.jpg" alt="" />
             <h4 className='mt-5'>Lyngos</h4>
             <p className='my-3'>My personal Web App build with Next.js and Tailwind CSS 
               which takes song lyrics and calculates the top word or words used in the song.
@@ -52,12 +56,14 @@ function projects() {
           <div className='flex flex-col items-center border border-transparent 
           rounded-sm shadow-[0_0_10px_] shadow-purple-800 p-5
           transition duration-300 hover:border-purple-800 ease-in-out'>
-            <img className='bg-white p-20' src="" alt="" />
+            <img className='object-fill  lg:mb-16' src="/Images/Hangman.jpg" alt="" />
             <h4 className='mt-5'>Hangman</h4>
             <p className='my-3'>Built a game of Hangman using Python. Uses basic game logic and 
               Object Oriented Programming to create the logic and play of the game.</p>
+            <a href="https://github.com/kaishigui/hangman.git">
             <button className='flex bg-galaxy opacity-90 border-purple-500 rounded-md 
         px-10 py-2 transition duration-150 hover:bg-purple-900 hover:ease-in'>View Project</button>
+            </a>
           </div>
         
         </div>

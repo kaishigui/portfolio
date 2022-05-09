@@ -35,7 +35,7 @@ function Header({scroll}) {
     
           <button className='flex items-center  ml-10 px-5'>
             <Link href="/">
-              <h2 className='text-2xl'>Z9</h2>
+              <h2 className='text-2xl text-galaxy'>MM</h2>
             </Link>
           </button>
 

@@ -38,6 +38,11 @@ export default function Home() {
 
   return (
     <main className=' flex flex-col mx-auto bg-purpler z-0 '>
+
+      <Head>
+        <title>Porfolio By MM</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       
        <Header scroll={scrollToBottom}/>
 
