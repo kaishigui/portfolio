@@ -1,10 +1,12 @@
 import React from 'react'
 import {GiHamburgerMenu } from 'react-icons/gi'
 import { IoMdClose } from 'react-icons/io'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { menuItems} from './menuItems'
 import Dropdown from './Dropdown';
 import Link from 'next/link';
+import { useRouter } from 'next/router'
+
 
 
 function Header({scroll}) {
@@ -14,6 +16,15 @@ function Header({scroll}) {
   const handleDropdown = () =>  {
     (!dropdown) ? setDropdown(true) : setDropdown(false)
   }
+
+  const [checkHome, setCheckHome] = useState(false);
+  const { asPath,  } = useRouter();
+
+  useEffect(() => {
+    (asPath === '/') ? setCheckHome(false) 
+    : setCheckHome(true)
+  }, [])
+  
 
 
   return (
@@ -57,8 +68,9 @@ function Header({scroll}) {
             </h3>
             <h3
               onClick={scroll}
-             className='lg:text-xl text-lg cursor-pointer
-            hover:text-purple-500 hover:ease-in-out duration-300 md:mr-5'>Contact
+             className={`lg:text-xl text-lg cursor-pointer
+            hover:text-purple-500 hover:ease-in-out duration-300 md:mr-5
+            ${checkHome && "hidden"} `}>Contact
             </h3>
           </div>
 

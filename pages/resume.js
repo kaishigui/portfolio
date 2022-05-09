@@ -21,11 +21,11 @@ function resume() {
       
     <Header />
 
-    <main className='flex flex-col bg-purpler text-white h-screen'>
-        <h2 className='flex justify-center my-10 text-3xl'>Resume</h2>
-        <div className='flex mx-20 py-10'>
+    <main className='flex flex-col bg-purpler text-white'>
+        <h2 className='flex justify-center my-12 text-3xl'>Resume</h2>
+        <div className='flex justify-center mx-20 py-10'>
           <img 
-          className='flex shadow-black'
+          className='flex md:max-w-2xl md:self-center object-contain shadow-black'
           src="/WebResume.jpg" alt="" />
         </div>
         <div className='flex justify-center my-10 '>
