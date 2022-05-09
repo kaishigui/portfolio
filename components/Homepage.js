@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Contact from './Contact'
@@ -10,13 +11,13 @@ function Homepage() {
       <section className='flex flex-col h-full items-center text-center my-5 mt-6
         md:flex-row md:justify-between w-full px-10'>
         <div className=' flex flex-col justify-center h-60 mb-2 md:mr-10'>
-          <h2 className='text-4xl lg:text-5xl md:text-5xl'>I'm
+          <h2 className='text-4xl lg:text-5xl md:text-5xl'>Im
             <span className='text-purple-500'> Mykell McSwain</span>
           </h2>
           <h4 className='mt-2 text-gray-400 lg:text-3xl md:text-3xl'>Front-End Developer</h4>
         </div>
         <div className='lg:max-h-4xl lg:mx-10'>
-          <img className="object-contain h-96" src="/Images/Web_designer_10_generated.jpg" alt="Image" />
+          <Image className="object-contain h-96" src="/Images/Web_designer_10_generated.jpg" alt="Image" />
         </div>
         
       </section>

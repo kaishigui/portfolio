@@ -23,7 +23,7 @@ function Header({scroll}) {
   useEffect(() => {
     (asPath === '/') ? setCheckHome(false) 
     : setCheckHome(true)
-  }, [])
+  }, [asPath])
   
 
 

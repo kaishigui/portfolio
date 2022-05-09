@@ -66,7 +66,7 @@ const handleSubmit = (e) => {
           -600 focus:outline-none" id="exampleInput8" 
           placeholder="Email address"/>
       </div>
-      <div class="form-group mb-6">
+      <div className="form-group mb-6">
         <textarea
         name="message"
         onChange={(e)=>{setMessage(e.target.value)}} 
