@@ -87,7 +87,7 @@ function Homepage() {
         </article>
       </section>
 
-      <section className='flex flex-col items-center my-10'>
+      <section className='flex flex-col max-w-4xl items-center my-10'>
         <h2 className='text-2xl mb-1 lg:text-4xl lg:mb-3'>Interested? </h2>
         <h4 className='text-gray-400'>Check out my pages below</h4>
         <div className='my-6'>
@@ -102,14 +102,14 @@ function Homepage() {
           <button className='border rounded-md mr-5 py-1 px-5 text-purple-500
           hover:shadow-[0_0_9px_] hover:shadow-purple-600 
           transition duration-400 hover:ease-in-out delay-100'>
-            <Link href="/projects">
+            <Link href="/skills">
               Skills
             </Link>
           </button>
           <button className='border rounded-md py-1 px-3 text-purple-500
           hover:shadow-[0_0_9px_] hover:shadow-purple-600 
           transition duration-400 hover:ease-in-out delay-100'>
-            <Link href="/projects">
+            <Link href="/resume">
               Resume
             </Link>
           </button>
