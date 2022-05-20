@@ -17,7 +17,11 @@ function Homepage() {
           <h4 className='mt-2 text-gray-400 lg:text-3xl md:text-3xl'>Front-End Developer</h4>
         </div>
         <div className='lg:max-h-4xl lg:mx-10'>
-          <Image className="object-contain h-96" src="/Images/Web_designer_10_generated.jpg" alt="Image" />
+          <Image 
+            layout='fill'
+            objectFit="contain"
+            src="/Images/Web_designer_10_generated.jpg" 
+            alt="Image" />
         </div>
         
       </section>

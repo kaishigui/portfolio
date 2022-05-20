@@ -62,7 +62,7 @@ function Header({scroll}) {
             </h3>
             <h3 className='lg:text-xl text-lg cursor-pointer
             hover:text-purple-500 hover:ease-in-out duration-300'>
-              <Link href="/">
+              <Link href="/resume">
                 <a>Resume</a>
               </Link>
             </h3>

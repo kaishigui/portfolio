@@ -26,6 +26,8 @@ function resume() {
         <h2 className='flex justify-center my-12 text-3xl'>Resume</h2>
         <div className='flex justify-center mx-20 py-10'>
           <Image  
+          layout='responsive'
+          objectFit="contain"
           className='flex md:max-w-2xl md:self-center max-w-md mx-10 px-10 object-contain shadow-black'
           src="/WebResume.jpg" alt="" />
         </div>
