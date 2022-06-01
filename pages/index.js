@@ -8,6 +8,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { useEffect } from 'react'
 
+
 export default function Home() {
 
   const [isVisible, setIsVisible] = useState(false)
@@ -37,7 +38,7 @@ export default function Home() {
 
 
   return (
-    <main className=' flex flex-col mx-auto bg-purpler z-0 '>
+    <main className=' flex flex-col mx-autoz-0 bg-purpler'>
 
       <Head>
         <title>Porfolio By MM</title>
@@ -45,7 +46,8 @@ export default function Home() {
       </Head>
       
        <Header scroll={scrollToBottom}/>
-
+        
+    
         <Homepage />
 
        <Footer />

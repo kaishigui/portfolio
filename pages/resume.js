@@ -18,16 +18,18 @@ function resume() {
     const filename = "MWebResume.pdf";
 
   return (
-    <div className=' mx-auto '>
+    <div className=' mx-auto h-screen '>
       
     <Header />
 
-    <main className='flex flex-col bg-purpler text-white'>
-        <h2 className='flex justify-center my-12 text-3xl'>Resume</h2>
-        <div className='flex justify-center mx-20 py-10'>
+    <main className='flex flex-col bg-purpler text-white h-full'>
+        <h2 className='flex justify-center my-5 text-4xl mt-10'>Resume</h2>
+        <div className='flex justify-center mx-20 '>
           <Image  
-          layout='responsive'
-          objectFit="contain"
+          layout='intrinsic'
+          height='700px'
+          width='500px'
+          objectFit='contain'
           className='flex md:max-w-2xl md:self-center max-w-md mx-10 px-10 object-contain shadow-black'
           src="/WebResume.jpg" alt="" />
         </div>

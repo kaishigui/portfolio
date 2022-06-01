@@ -38,7 +38,7 @@ const handleSubmit = (e) => {
 }
 
   return (
-    <div className='block p-6 rounded-lg shadow-lg bg-purpler max-w-lg lg:max-w-2xl mb-10'>
+    <div className='block p-6 rounded-lg shadow-xl  bg-purpler max-w-lg lg:max-w-2xl mb-10'>
 
       <div className='my-7 text-center text-2xl'>
         <h2>Drop some feedback below</h2>

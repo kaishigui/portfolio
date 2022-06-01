@@ -1,34 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2 align="center">
+  Portfolio Website<br/>
+  <a href="http://soumya-jit.tech/" target="_blank"></a>
+</h2>
+
+
+<br/>
+
+<center>
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
+
+
+</center>
+
+<h3 align="center">
+    🔹
+    <a href="https://github.com/kaishigui/portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    🔹
+    <a href="https://github.com/kaishigui/portfolio/issues">Request Feature</a>
+</h3>
+
+## TL;DR
+
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Mykell aka Kai](https://github.com/kaishigui/portfolio). Thanks!
+
+## Built With
+
+My personal <a href="portfolio-kaishigui.vercel.app" target="_blank"> portfolio</a> which features some of my github projects as well as my resume and technical skills.<br/>
+
+This project was built using these technologies.
+
+- Next.js
+- Node.js
+- Express.js
+- Tailwind CSS
+- VsCode
+- Vercel
+
+## Features
+
+**📖 Multi-Page Layout**
+
+**🎨 Styled with Tailwind CSS and Custom theme layouts**
+
+**📱 Fully Responsive**
 
 ## Getting Started
 
-First, run the development server:
+Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 🛠 Installation and Setup Instructions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Installation: `npm install`
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+2. In the project directory, you can run: `npm run dev`
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The page will reload if you make edits.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Usage Instructions
 
-## Learn More
+Open the project folder and Navigate to `/src/components/`. <br/>
+You will find all the components used and you can edit your information accordingly.
 
-To learn more about Next.js, take a look at the following resources:
+### Show your support
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Give a ⭐ if you like this website!
